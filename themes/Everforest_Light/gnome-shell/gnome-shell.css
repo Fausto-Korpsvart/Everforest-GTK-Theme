@@ -58,7 +58,6 @@ stage {
 .show-apps .overview-icon,
 .app-well-app .overview-icon,
 .grid-search-result .overview-icon {
-  /* color: rgba(225, 221, 203, 0.7); */
   color: #a4ad9e;
   border-radius: 9px;
   padding: 6px;
@@ -3287,7 +3286,6 @@ StScrollBar StButton#hhandle:active {
 }
 
 #overviewGroup {
-  /* background-color: #212121; */
   background-image: url('assets/background.png');
   background-size: contain;
   background-repeat: repeat;

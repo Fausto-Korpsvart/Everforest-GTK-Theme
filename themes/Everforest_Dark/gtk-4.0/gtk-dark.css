@@ -4736,6 +4736,7 @@ windowcontrols
   background-color: #bf983d;
   color: transparent;
 }
+
 windowcontrols
   button:not(.suggested-action):not(.destructive-action).maximize:hover,
 windowcontrols
@@ -4743,6 +4744,7 @@ windowcontrols
   background-color: #899c40;
   color: transparent;
 }
+
 windowcontrols
   button:not(.suggested-action):not(.destructive-action).close:hover,
 windowcontrols

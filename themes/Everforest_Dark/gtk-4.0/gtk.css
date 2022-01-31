@@ -4736,6 +4736,7 @@ windowcontrols
   background-color: #bf983d;
   color: transparent;
 }
+
 windowcontrols
   button:not(.suggested-action):not(.destructive-action).maximize:hover,
 windowcontrols
@@ -4743,6 +4744,7 @@ windowcontrols
   background-color: #899c40;
   color: transparent;
 }
+
 windowcontrols
   button:not(.suggested-action):not(.destructive-action).close:hover,
 windowcontrols
@@ -4768,6 +4770,7 @@ windowcontrols
   background-color: #dbbc7f;
   color: transparent;
 }
+
 windowcontrols
   button:not(.suggested-action):not(.destructive-action).maximize:backdrop:hover,
 windowcontrols
@@ -4775,6 +4778,7 @@ windowcontrols
   background-color: #a7c080;
   color: transparent;
 }
+
 windowcontrols
   button:not(.suggested-action):not(.destructive-action).close:backdrop:hover,
 windowcontrols

@@ -16891,7 +16891,7 @@ messagedialog.csd decoration {
   background-color: #1e2327;
 }
 
-buton.titlebutton:not(.suggested-action):not(.destructive-action) {
+button.titlebutton:not(.suggested-action):not(.destructive-action) {
   border-radius: 9999px;
   min-height: 14px;
   min-width: 14px;
@@ -16899,19 +16899,18 @@ buton.titlebutton:not(.suggested-action):not(.destructive-action) {
   margin: 0px 3px;
 }
 
-/* 01 - Inner icons in window control buttons */
 button.titlebutton:not(.suggested-action):not(.destructive-action).minimize,
 button.titlebutton:not(.suggested-action):not(.destructive-action).maximize,
 button.titlebutton:not(.suggested-action):not(.destructive-action).close {
   color: transparent;
 }
 
-/* 01 - Inner icons in window control buttons - Hover and active */
 button.titlebutton:not(.suggested-action):not(.destructive-action).minimize:hover,
 button.titlebutton:not(.suggested-action):not(.destructive-action).minimize:active {
   background-color: #bf983d;
   color: transparent;
 }
+
 button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:hover,
 button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:active {
   background-color: #899c40;
@@ -16923,7 +16922,6 @@ button.titlebutton:not(.suggested-action):not(.destructive-action).close:active 
   color: transparent;
 }
 
-/* 01 - Window control buttons - Color of buttons in backdrop window */
 button.titlebutton:not(.suggested-action):not(.destructive-action).minimize:backdrop,
 button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:backdrop,
 button.titlebutton:not(.suggested-action):not(.destructive-action).close:backdrop {
@@ -16931,24 +16929,24 @@ button.titlebutton:not(.suggested-action):not(.destructive-action).close:backdro
   color: transparent;
 }
 
-/* 01 - Window control buttons - Hover color in active window */
 button.titlebutton:not(.suggested-action):not(.destructive-action).minimize:backdrop:hover,
 button.titlebutton:not(.suggested-action):not(.destructive-action).minimize:backdrop:active {
   background-color: #dbbc7f;
   color: transparent;
 }
+
 button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:backdrop:hover,
 button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:backdrop:active {
   background-color: #a7c080;
   color: transparent;
 }
+
 button.titlebutton:not(.suggested-action):not(.destructive-action).close:backdrop:hover,
 button.titlebutton:not(.suggested-action):not(.destructive-action).close:backdrop:active {
   background-color: #e67e80;
   color: transparent;
 }
 
-/* 01 - Window control buttons - Buttons color in active and normal modes */
 button.titlebutton:not(.suggested-action):not(.destructive-action).minimize {
   background-color: #dbbc7f;
 }
@@ -16972,7 +16970,6 @@ button.titlebutton:not(.suggested-action):not(.destructive-action).close {
 button.titlebutton:not(.suggested-action):not(.destructive-action).close:active {
   background-color: #e67e80;
 }
-/* 01 - WINDOW CONTROL BUTTONS end */
 
 .monospace {
   font-family: monospace;

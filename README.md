@@ -1,8 +1,8 @@
 ## Everforest themes for GTK
 
-![Everforest Dark](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme/blob/master/screenshots/Screenshot%20from%202022-01-31%2012-28-00.png)
+![Everforest Dark](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme/blob/master/screenshots/everforest06.png)
 **Everforest Dark**
-![Everforest Light](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme/blob/master/screenshots/Screenshot%20from%202022-01-31%2012-30-08.png)
+![Everforest Light](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme/blob/master/screenshots/everforest07.png)
 **Everforest Light**
 
 ---

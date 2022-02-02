@@ -35,6 +35,8 @@ So, this is my first attempt with GTK themes, which currently only works on the 
 ---
 
 #### More themes of the 'Code Editors Colours for GTK Themes' serie
+- [**Everforest Shell Themes**](https://www.pling.com/p/1695475/) <br>
+- [**Everforest Icon Themes**](https://www.pling.com/p/1695476/) <br>
 **Tokyonight**
 - [**Tokyo Night Themes**](https://www.pling.com/p/1681315/) <br>
 - [**Tokyo Night Shell Themes**](https://www.pling.com/p/1681470/) <br>

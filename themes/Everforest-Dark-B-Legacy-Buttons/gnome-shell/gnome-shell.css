@@ -2612,14 +2612,14 @@ StEntry StLabel.hint-text,
   text-shadow: none;
   border-radius: 6px;
   margin: 0 6px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .popup-menu .popup-menu-item:checked {
-  font-weight: normal;
+  font-weight: 500;
   border: none;
   box-shadow: none;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 1) !important;
   background-color: #bec5b2 !important;
   border-radius: 6px 6px 0 0;
 }

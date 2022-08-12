@@ -13541,9 +13541,17 @@ box.vertical headerbar {
 	background-color: #2b3339;
 }
 
-headerbar > box.left,
-headerbar > box.right {
-	padding: 0 3px;
+.nautilus-window headerbar > box.horizontal.left {
+  padding: 0 6px;
+  padding-right: 60px;
+}
+
+headerbar > box.left {
+  padding: 0 12px;
+}
+
+headerbar > box.right{
+  padding: 0 3px;
 }
 
 headerbar entry,

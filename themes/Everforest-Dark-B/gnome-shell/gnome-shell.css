@@ -2087,8 +2087,8 @@ StEntry StLabel.hint-text,
 
 /* Notifications & Message Tray */
 .notification-banner {
-  width: 34em;
-  min-height: 64px;
+  width: 25em;
+  min-height: 65px;
   margin: 2px 5px 8px;
   border-radius: 6px;
   color: rgba(255, 249, 232, 0.7);
@@ -3301,13 +3301,25 @@ StScrollBar StButton#hhandle:active {
 }
 
 .osd-window {
-  spacing: 1em;
-  min-width: 64px;
-  min-height: 64px;
+  spacing: 12px;
+  padding: 12px 18px;
+  margin-bottom: 4em;
+}
+
+.osd-window > * {
+  spacing: 8px;
 }
 
 .osd-window StIcon {
-  icon-size: 96px;
+  icon-size: 32px;
+}
+
+.osd-window StLabel:ltr {
+  margin-right: 6px;
+}
+
+.osd-window StLabel:rtl {
+  margin-left: 6px;
 }
 
 #appMenu {

@@ -11,36 +11,36 @@ define variables for them in _colors.scss */
 /* Everforest Borderless Dark Theme */
 
 /* The main accent color and the matching text value */
-@define-color accent_bg_color #bec5b2;
-@define-color accent_fg_color #1e2327;
-@define-color accent_color @accent_bg_color;
+@define-color accent_color #7fbbb3;
+@define-color accent_bg_color shade(#7fbbb3, 0.5);
+@define-color accent_fg_color #fff9e8;
 
 /* Destructive-action buttons */
-@define-color destructive_bg_color #e67e80;
-@define-color destructive_fg_color #fff9e8;
 @define-color destructive_color #e67e80;
+@define-color destructive_bg_color shade(#e67e80, 0.5);
+@define-color destructive_fg_color #fff9e8;
 
 /* Levelbars, entries, labels and infobars. These don't need text colors */
-@define-color success_bg_color #a7c080;
-@define-color success_fg_color #fff9e8;
 @define-color success_color #a7c080;
-@define-color warning_bg_color #e69875;
-@define-color warning_fg_color #1e2327;
+@define-color success_bg_color shade(#a7c080, 0.5);
+@define-color success_fg_color #fff9e8;
 @define-color warning_color #e69875;
-@define-color error_bg_color #e67e80;
-@define-color error_fg_color #fff9e8;
+@define-color warning_bg_color shade(#e69875, 0.5);
+@define-color warning_fg_color #fff9e8;
 @define-color error_color #e67e80;
+@define-color error_bg_color shade(#e67e80, 0.5);
+@define-color error_fg_color #fff9e8;
 
 /* Window */
-@define-color window_bg_color #2b3339;
+@define-color window_bg_color #1e2327;
 @define-color window_fg_color #fff9e8;
 
 /* Views - e.g. text view or tree view */
-@define-color view_bg_color #2b3339;
+@define-color view_bg_color #1e2327;
 @define-color view_fg_color #fff9e8;
 
 /* Header bar, search bar, tab bar */
-@define-color headerbar_bg_color #2b3339;
+@define-color headerbar_bg_color #1e2327;
 @define-color headerbar_fg_color #fff9e8;
 @define-color headerbar_border_color #fff9e8;
 @define-color headerbar_backdrop_color @window_bg_color;
@@ -89,12 +89,12 @@ window.csd.dialog.message {
   margin: 0;
   padding: 2px;
   border-radius: 0;
-  background-color: #2b3339;
+  background-color: #1e2327;
   border: 1px solid #4b4b4b;
 }
 
 .solid-csd window.csd:backdrop {
-  background-color: #2b3339;
+  background-color: #1e2327;
 }
 
 window.csd.maximized,
@@ -132,103 +132,59 @@ windowcontrols button:not(.suggested-action):not(.destructive-action) {
   border-radius: 9999px;
 }
 
-windowcontrols button:not(.suggested-action):not(.destructive-action).minimize,
-windowcontrols button:not(.suggested-action):not(.destructive-action).maximize,
-windowcontrols button:not(.suggested-action):not(.destructive-action).close {
-  color: transparent;
-}
-
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).minimize
-  image,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).maximize
-  image,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).close
-  image {
+button.titlebutton.minimize,
+button.titlebutton.maximize,
+button.titlebutton.close,
+windowcontrols button.minimize image,
+windowcontrols button.maximize image,
+windowcontrols button.close image {
   padding: 0;
+  color: transparent;
 }
 
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).minimize:hover,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).minimize:active {
-  background-color: #dfa000;
-  color: transparent;
-}
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).maximize:hover,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).maximize:active {
-  background-color: #8da101;
-  color: transparent;
-}
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).close:hover,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).close:active {
-  color: transparent;
-  background-color: #f85552;
+button.titlebutton.close,
+button.titlebutton.close:hover:backdrop,
+windowcontrols > button.close,
+windowcontrols > button.close:hover:backdrop {
+  background-color: #e67e80;
 }
 
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).minimize:backdrop,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).maximize:backdrop,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).close:backdrop {
+button.titlebutton.close:hover,
+windowcontrols > button.close:hover {
+  background-color: shade(#e67e80, 0.5);
+}
+
+button.titlebutton.maximize,
+button.titlebutton.maximize:hover:backdrop,
+windowcontrols > button.maximize,
+windowcontrols > button.maximize:hover:backdrop {
+  background-color: #a7c080;
+}
+
+button.titlebutton.maximize:hover,
+windowcontrols > button.maximize:hover {
+  background-color: shade(#a7c080, 0.5);
+}
+
+button.titlebutton.minimize,
+button.titlebutton.minimize:hover:backdrop,
+windowcontrols > button.minimize,
+windowcontrols > button.minimize:hover:backdrop {
+  background-color: #dbbc7f;
+}
+
+button.titlebutton.minimize:hover,
+windowcontrols > button.minimize:hover {
+  background-color: shade(#dbbc7f, 0.5);
+}
+
+button.titlebutton.close:backdrop,
+button.titlebutton.maximize:backdrop,
+button.titlebutton.minimize:backdrop,
+windowcontrols > button.close:backdrop,
+windowcontrols > button.maximize:backdrop,
+windowcontrols > button.minimize:backdrop {
   background-color: #53605c;
-  color: transparent;
-}
-
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).minimize:backdrop:hover,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).minimize:backdrop:active {
-  background-color: #dbbc7f;
-  color: transparent;
-}
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).maximize:backdrop:hover,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).maximize:backdrop:active {
-  background-color: #a7c080;
-  color: transparent;
-}
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).close:backdrop:hover,
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).close:backdrop:active {
-  background-color: #e67e80;
-  color: transparent;
-}
-
-windowcontrols button:not(.suggested-action):not(.destructive-action).minimize {
-  background-color: #dbbc7f;
-}
-
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).minimize:active {
-  background-color: #dbbc7f;
-}
-
-windowcontrols button:not(.suggested-action):not(.destructive-action).maximize {
-  background-color: #a7c080;
-}
-
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).maximize:active {
-  background-color: #a7c080;
-}
-
-windowcontrols button:not(.suggested-action):not(.destructive-action).close {
-  background-color: #e67e80;
-}
-
-windowcontrols
-  button:not(.suggested-action):not(.destructive-action).close:active {
-  background-color: #e67e80;
 }
 
 gridview > child:selected,
@@ -433,7 +389,7 @@ popover.background.magnifier {
 }
 
 magnifier {
-  background-color: #2b3339;
+  background-color: #1e2327;
 }
 
 switch {
@@ -486,6 +442,6 @@ switch:focus:hover > slider {
 }
 
 switch:checked > slider {
-  background-color: #2b3339;
-  color: #2b3339;
+  background-color: #1e2327;
+  color: #1e2327;
 }

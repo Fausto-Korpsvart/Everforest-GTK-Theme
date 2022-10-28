@@ -11,24 +11,24 @@ define variables for them in _colors.scss */
 /* Everforest Light Borderless Theme */
 
 /* The main accent color and the matching text value */
-@define-color accent_color #2b3339;
-@define-color accent_bg_color #2b3339;
+@define-color accent_color #9da9a0;
+@define-color accent_bg_color shade(#9da9a0, 0.5);
 @define-color accent_fg_color #fff9e8;
 
 /* Destructive-action buttons */
 @define-color destructive_color #e67e80;
-@define-color destructive_bg_color #e67e80;
+@define-color destructive_bg_color shade(#e67e80, 0.5);
 @define-color destructive_fg_color #fff9e8;
 
 /* Levelbars, entries, labels and infobars. These don't need text colors */
 @define-color success_color #a7c080;
-@define-color success_bg_color #a7c080;
+@define-color success_bg_color shade(#a7c080, 0.5);
 @define-color success_fg_color #fff9e8;
-@define-color warning_color #dbbc7f;
-@define-color warning_bg_color #dbbc7f;
+@define-color warning_color #e69875;
+@define-color warning_bg_color shade(#e69875, 0.5);
 @define-color warning_fg_color #fff9e8;
 @define-color error_color #e67e80;
-@define-color error_bg_color #e67e80;
+@define-color error_bg_color shade(#e67e80, 0.5);
 @define-color error_fg_color #fff9e8;
 
 /* Window */
@@ -198,7 +198,8 @@ calendar > grid > label.today,
 filechooser stack.view scrolledwindow treeview.view:selected,
 stacksidebar row:selected,
 .navigation-sidebar > row:selected {
-  color: #fff9e8;
+  color: #83c092;
+  font-weight: 500;
   background-color: #4a555b;
 }
 

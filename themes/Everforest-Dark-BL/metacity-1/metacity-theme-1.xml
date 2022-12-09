@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <metacity_theme>
   <info>
-    <name>Everfores-Dark</name>
+    <name>Catppuccin_Dark</name>
     <author>Vince Liuice mod fkorpsvart</author>
     <copyright>GPL-3.0+</copyright>
     <date>2022.04.14</date>
-    <description>Everfores-Dark Metacity Theme</description>
+    <description>Catppuccin_Dark Metacity Theme</description>
   </info>
 
   <!-- CONSTANTS -->

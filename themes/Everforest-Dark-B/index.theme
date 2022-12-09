@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
 Name=Everforest-Dark
-Comment=An elegant GTK theme with the 'Everforest Dark' colour palette, and based on '@Vinceliuice's Graphite' GTK theme.
+Comment=An Flat Gtk+ theme based on Elegant Design
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Everforest-Dark
-MetacityTheme=Everforest-Dark
+MetacityTheme=GruvboEverforest-Dark
 IconTheme=Everforest-Dark
-CursorTheme=Everforest-Dark
+CursorTheme=Everforest-cursors
 ButtonLayout=close,minimize,maximize:menu

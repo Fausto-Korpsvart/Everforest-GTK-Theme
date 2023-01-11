@@ -5728,7 +5728,7 @@ calendar > grid > label.today:selected,
 stacksidebar row:selected,
 .navigation-sidebar > row:selected {
   color: #bec5b2;
-  background-color: #2b3339;
+  background-color: #3a454a;
 }
 
 .monospace {

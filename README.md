@@ -13,7 +13,7 @@
 > With support also for the desktop environments Cinnamon and XFCE.<br />
 > You can check **Reddit:** [r/unixporn](https://www.reddit.com/r/unixporn/) to get some ideas.
 
-![Everforest](https://raw.githubusercontent.com/Fausto-Korpsvart/Everforest-GTK-Theme/master/screenshots/Everforest1.png)
+![Everforest](https://raw.githubusercontent.com/Fausto-Korpsvart/Everforest-GTK-Theme/master/extra/screenshots/Everforest1.png)
 
 ## Installing Themes
 

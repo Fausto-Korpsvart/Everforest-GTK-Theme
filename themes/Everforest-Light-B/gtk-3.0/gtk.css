@@ -11284,6 +11284,12 @@ calendar.raven-calendar:selected {
   min-width: 16px;
   padding: 0;
   border-radius: 0;
+  color: rgba(255, 249, 232, 0.7);
+}
+
+.xfce4-panel.background button:hover,
+.xfce4-panel.background button:checked {
+  color: rgba(255, 249, 232, 0.7);
 }
 
 .xfce4-panel.background .tasklist button {

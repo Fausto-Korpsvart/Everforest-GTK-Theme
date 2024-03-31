@@ -5,7 +5,7 @@ Comment=An Flat Gtk+ theme based on Elegant Design
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Everforest-Dark
+GtkTheme=Everforest-Dark-Medium
 MetacityTheme=GruvboEverforest-Dark
 IconTheme=Everforest-Dark
 CursorTheme=Everforest-cursors

@@ -22,10 +22,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="7.5769231"
-     inkscape:cx="52.197969"
-     inkscape:cy="52.197969"
+     inkscape:cx="52.13198"
+     inkscape:cy="52.13198"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -33,7 +33,7 @@
   <g
      transform="translate(0 -948.36)"
      id="g1"
-     style="fill:#4c7a5d;fill-opacity:1">
+     style="fill:#35a77c;fill-opacity:1">
     <circle
        id="corner-ripple"
        cx="52"
@@ -41,6 +41,6 @@
        r="48"
        fill="#009688"
        opacity=".25"
-       style="fill:#4c7a5d;fill-opacity:1" />
+       style="fill:#35a77c;fill-opacity:1" />
   </g>
 </svg>

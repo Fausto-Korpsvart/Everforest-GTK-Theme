@@ -52,11 +52,11 @@
      inkscape:zoom="3.337544"
      inkscape:cx="19.175777"
      inkscape:cy="88.238537"
-     inkscape:window-width="1882"
-     inkscape:window-height="989"
-     inkscape:window-x="102"
-     inkscape:window-y="102"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg8">
     <inkscape:grid
        type="xygrid"
@@ -85,7 +85,7 @@
      y="5"
      rx="8"
      ry="8"
-     style="fill:#266b79;fill-opacity:1" />
+     style="fill:#3a94c5;fill-opacity:1" />
   <path
      d="m 18,95 c -0.554,0 -1,0.446 -1,1 v 4 h -4 c -0.554,0 -1,0.446 -1,1 0,0.554 0.446,1 1,1 h 4 v 4 c 0,0.554 0.446,1 1,1 0.554,0 1,-0.446 1,-1 v -4 h 4 c 0.554,0 1,-0.446 1,-1 0,-0.554 -0.446,-1 -1,-1 h -4 v -4 c 0,-0.554 -0.446,-1 -1,-1 z m 8,6 a 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 8,8 0 0 1 8,-8 8,8 0 0 1 8,8 z"
      color="#000000"

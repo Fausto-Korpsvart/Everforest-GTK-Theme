@@ -49,11 +49,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
-     inkscape:zoom="3.337544"
-     inkscape:cx="19.025966"
-     inkscape:cy="88.238537"
+     inkscape:zoom="2.36"
+     inkscape:cx="0.42372881"
+     inkscape:cy="94.067797"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -85,7 +85,7 @@
      y="5"
      rx="8"
      ry="8"
-     style="fill:#ab62b1;fill-opacity:1" />
+     style="fill:#df69ba;fill-opacity:1" />
   <path
      d="m 18,95 c -0.554,0 -1,0.446 -1,1 v 4 h -4 c -0.554,0 -1,0.446 -1,1 0,0.554 0.446,1 1,1 h 4 v 4 c 0,0.554 0.446,1 1,1 0.554,0 1,-0.446 1,-1 v -4 h 4 c 0.554,0 1,-0.446 1,-1 0,-0.554 -0.446,-1 -1,-1 h -4 v -4 c 0,-0.554 -0.446,-1 -1,-1 z m 8,6 a 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 8,8 0 0 1 8,-8 8,8 0 0 1 8,8 z"
      color="#000000"

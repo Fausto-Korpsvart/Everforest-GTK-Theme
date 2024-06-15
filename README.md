@@ -1,7 +1,7 @@
 <h1 align="center">Everforest GTK Theme</h1>
 <p align="center">
   <img = src="https://img.shields.io/badge/OS-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=yelow"/>
-	<img src="https://img.shields.io/badge/Style-CSS-blue?style=for-the-badge&logo=css3&logoColor=blue"/>
+    <img src="https://img.shields.io/badge/Style-CSS-blue?style=for-the-badge&logo=css3&logoColor=blue"/>
   <img src="https://img.shields.io/github/stars/Fausto-Korpsvart/Everforest-GTK-Theme?&style=for-the-badge&logoColor=red" />
   <img src="https://img.shields.io/github/forks/Fausto-Korpsvart/Everforest-GTK-Theme?style=for-the-badge" />
   <img src="https://img.shields.io/github/issues/Fausto-Korpsvart/Everforest-GTK-Theme?style=for-the-badge" />
@@ -110,7 +110,7 @@ Run the following commands in the terminal:
 -u, --uninstall         Uninstall/Remove installed themes or links
 
 --tweaks                Specify versions for tweaks
-                        1. [moon|storm]        Moon|Storm| ColorSchemes version
+                        1. [medium|soft]       Medium|Soft| ColorSchemes version
                         2. black               Blackness color version
                         3. float               Floating gnome-shell panel style
                         4. outline             Windows with 2px outline style

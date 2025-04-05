@@ -49,10 +49,16 @@
 
 	.nautilus-grid-view,
 	.nautilus-list-view {
+		/* @extend %content_style; */
 		@extend %nautilus_content_style;
 
 		.view {
 			background-color: transparent;
+		}
+
+		row.activatable > cell {
+			padding: 0px;
+			margin: 0px;
 		}
 
 		scrolledwindow {
@@ -70,8 +76,8 @@
 		}
 
 		gridview.view {
-			margin: 6px;
-			padding: 6px;
+			margin: 10px 5px;
+			padding: 10px 5px;
 		}
 	}
 
@@ -145,7 +151,7 @@
 		margin: $space-size;
 		border-style: none;
 		border-radius: $modal-radius;
-		background-color: $background;
+		background-color: rgba($base, 0.95);
 		color: $primary;
 		box-shadow: $shadow-z3;
 
@@ -209,7 +215,11 @@
 }
 
 #NautilusPathBar {
-	background-color: if($variant == 'light', rgba($base, 0.4), $fill);
+	background-color: if(
+		$variant == 'light',
+		rgba($base, 0.5),
+		$titlebar-fill
+	);
 	border-radius: $corner-radius;
 	margin: $space-size 0;
 }
@@ -355,7 +365,7 @@ toastoverlay {
 
 calendar-view {
 	font-size: 10pt;
-	// @extend %content_style;
+	@extend %content_style;
 
 	&:selected {
 		color: $primary;
@@ -501,7 +511,6 @@ button:checked:not(:backdrop) .calendar-color-image,
 
 // month/year controls
 datechooser {
-	// background-color: $background;
 	padding: $space-size;
 
 	.current-week {
@@ -2013,4 +2022,14 @@ list.music-list {
 
 notebook scrolledwindow treeview.treeview-spacing {
 	background-color: $background;
+}
+
+//
+// Fractal
+//
+.account-switcher-row label {
+	color: $text;
+}
+.account-switcher-row label.dim-label {
+	color: $text-secondary;
 }

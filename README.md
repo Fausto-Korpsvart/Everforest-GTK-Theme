@@ -1,7 +1,7 @@
 <h1 align="center">Everforest GTK Theme</h1>
 
 <p align="center">
-  <img alt"Linux Logo" = src="https://img.shields.io/badge/OS-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=yelow"/>
+  <img alt"Linux Logo" src="https://img.shields.io/badge/OS-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=yelow"/>
   <img alt"CSS Logo" src="https://img.shields.io/badge/Style-CSS-blue?style=for-the-badge&logo=css3&logoColor=blue"/>
   <img alt"GitHub Stars" src="https://img.shields.io/github/stars/Fausto-Korpsvart/Everforest-GTK-Theme?&style=for-the-badge&logoColor=red" />
   <img alt"GitHub Forks" src="https://img.shields.io/github/forks/Fausto-Korpsvart/Everforest-GTK-Theme?style=for-the-badge" />
@@ -9,8 +9,6 @@
   <img alt"GNU License" src='https://img.shields.io/github/license/Fausto-Korpsvart/Everforest-GTK-Theme?style=for-the-badge&logo=GNU&label=License&color=bd0000&logoColor=white'/>
 </p>
 
-> [!NOTE]
-> Description
 > A GTK theme based on the colours of [Sainnhe's](https://github.com/sainnhe) great theme: [Everforest for Neovim](https://github.com/sainnhe/everforest),
 > the [VinceLiuice's](https://github.com/vinceliuice) awesome: [Magnetic GTK theme](https://github.com/vinceliuice/Magnetic-gtk-theme)
 > and the creativity of [Gusbemacbe's](https://github.com/gusbemacbe): [Suru Plus Icon Theme](https://github.com/gusbemacbe/suru-plus).<br>

@@ -2,7 +2,7 @@
 @define-color bg_color #f7f4e0;
 @define-color window_bg @bg_color;
 @define-color window_border_color #7f897d;
-@define-color prefs_backgroud #e1ddcb;
+@define-color prefs_background #e1ddcb;
 
 /* Input */
 @define-color selected_bg_color #5c6a72;

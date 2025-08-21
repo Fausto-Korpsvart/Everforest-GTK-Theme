@@ -150,7 +150,8 @@
 }
 
 #NautilusPathBar {
-	background-color: if($variant == 'light', rgba($base, 0.5), $titlebar-fill);
+	/* background-color: if($variant == 'light', rgba($base, 0.5), $titlebar-fill); */
+	background-color: if($variant == 'light', $grey-100, $fill);
 	border-radius: $corner-radius;
 	margin: $space-size 0;
 }

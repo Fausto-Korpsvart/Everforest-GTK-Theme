@@ -23,12 +23,12 @@
 
 // Sidebar
 %sidebar_style {
-	background-color: if($variant == 'light', $grey-150, $grey-750);
+	background-color: if($variant == 'light', $grey-100, $grey-750);
 
 	@if $colorscheme == 'medium' {
-		background-color: if($variant == 'light', $grey-150, $grey-700);
+		background-color: if($variant == 'light', $grey-100, $grey-700);
 	} @else if $colorscheme == 'soft' {
-		background-color: if($variant == 'light', $grey-150, $grey-700);
+		background-color: if($variant == 'light', $grey-100, $grey-700);
 	}
 
 	color: on($background);
@@ -290,7 +290,7 @@ avatar {
 		color: $text-secondary;
 		box-shadow: none;
 		outline: none;
-		background-color: if($variant == 'light', rgba($base_alt, 0.5), $fill);
+		background-color: if($variant == 'light', $grey-100, $fill);
 		color: $text;
 	}
 

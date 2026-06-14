@@ -1119,7 +1119,6 @@ dropdown {
 
 	> button > box {
 		border-radius: 0 $modal-radius $modal-radius 0;
-		border-spacing: $space-size;
 
 		> stack > row.activatable {
 			&:hover,
